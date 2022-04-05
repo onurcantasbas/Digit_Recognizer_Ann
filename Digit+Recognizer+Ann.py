@@ -37,9 +37,9 @@ def sigmoid(z):
 
 
 def initialize_parameters(X_train, Y_train):
-    parameters = {"layer1_weights": np.random.randn(3,X_train.shape[0]) * 0.1,
+    parameters = {"layer1_weights": np.random.randn(3,4096) * 0.1,
                   "bias1": np.zeros((3,1)),
-                  "layer2_weights": np.random.randn(Y_train.shape[0],3) * 0.1,
+                  "layer2_weights": np.random.randn(1,3) * 0.1,
                   "bias2": np.zeros((Y_train.shape[0],1))}
     return parameters
 
