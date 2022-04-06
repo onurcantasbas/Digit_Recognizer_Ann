@@ -2,7 +2,7 @@
  Digit Recognizer Model (Sing language img  data)
 
 When we generate backward forward propagation model in machine learning, normally we get 1 prediction after multiply(weights and inputs) and activation function process.
-But there is difference between deep learning and machine learning. In machine learning neurons are isolated from each other. Normalization is somewhat part of it, but in a good way. Of course we dont want some of features dominate entire model. In case of deep learning, expectation is neurons to interact with each other.
+But there is difference between deep learning and machine learning. In machine learning neurons are isolated from each other.Data normalization is somewhat part of it, but in a good way. Of course we dont want some of features dominate entire model. In case of deep learning, expectation is neurons to interact with each other.
 
 
 Forward backward propagation in machine learning:
